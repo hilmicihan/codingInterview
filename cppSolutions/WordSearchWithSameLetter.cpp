@@ -20,6 +20,10 @@ int dfs(vector<string> &A,int i ,int j, int currentIndex,string &B)
     int result = dfs(A,i-1,j,currentIndex+1,B) || dfs(A,i+1,j,currentIndex+1,B) || dfs(A,i,j+1,currentIndex+1,B) || dfs(A,i,j-1,currentIndex+1,B);
     return result;
 }
+class Solution {
+    public:
+    int exist(vector<string> &board, string word);
+};
 int Solution::exist(vector<string> &board, string word) {
   for(int i = 0;i<board.size();i++)
         {
