@@ -44,6 +44,7 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "chrono": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "map": "cpp"
     }
 }
